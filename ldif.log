@@ -1,0 +1,680 @@
+Connecting to "WIN-KVCKK0I3VEC.bucsden.radiotope.com"
+Logging in as current user using SSPI
+Importing directory from file "MCX_in_AD_Extensions.ldif"
+Loading entries
+1: cn=apple-category,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-category,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.10.4
+Attribute 2) ldapDisplayName:apple-category
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:Category for the computer or neighborhood
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+2: cn=apple-computeralias,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-computeralias,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.20.3
+Attribute 2) ldapDisplayName:apple-computeralias
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:XML plist referring to a computer record
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+3: cn=apple-computer-list-groups,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-computer-list-groups,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.11.4
+Attribute 2) ldapDisplayName:apple-computer-list-groups
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:groups
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+4: cn=apple-computers,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-computers,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.11.3
+Attribute 2) ldapDisplayName:apple-computers
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:computers
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+5: cn=apple-data-stamp,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-data-stamp,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.12.2
+Attribute 2) ldapDisplayName:apple-data-stamp
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:data stamp
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+6: cn=apple-dns-domain,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-dns-domain,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.18.1
+Attribute 2) ldapDisplayName:apple-dns-domain
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:DNS domain
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+7: cn=apple-dnsname,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-dnsname,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.19.4
+Attribute 2) ldapDisplayName:apple-dnsname
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:DNS name
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+8: cn=apple-dns-nameserver,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-dns-nameserver,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.18.2
+Attribute 2) ldapDisplayName:apple-dns-nameserver
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:DNS name server list
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+9: cn=apple-group-homeowner,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-group-homeowner,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.14.2
+Attribute 2) ldapDisplayName:apple-group-homeowner
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:group home owner settings
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+10: cn=apple-group-homeurl,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-group-homeurl,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.14.1
+Attribute 2) ldapDisplayName:apple-group-homeurl
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:group home url
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+11: cn=apple-imhandle,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-imhandle,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.21
+Attribute 2) ldapDisplayName:apple-imhandle
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:IM handle (service:account name)
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+12: cn=apple-keyword,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-keyword,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.19
+Attribute 2) ldapDisplayName:apple-keyword
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:keywords
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+13: cn=apple-mcxflags,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mcxflags,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.10
+Attribute 2) ldapDisplayName:apple-mcxflags
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:mcx flags
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+14: cn=apple-mcxsettings,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mcxsettings,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.16
+Attribute 2) ldapDisplayName:apple-mcxsettings
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:mcx settings
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+15: cn=apple-neighborhoodalias,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-neighborhoodalias,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.20.2
+Attribute 2) ldapDisplayName:apple-neighborhoodalias
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:XML plist referring to another neighborhood record
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+16: cn=apple-networkview,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-networkview,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.10.3
+Attribute 2) ldapDisplayName:apple-networkview
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:Network view for the computer
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+17: cn=apple-nodepathxml,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-nodepathxml,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.20.1
+Attribute 2) ldapDisplayName:apple-nodepathxml
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:XML plist of directory node path
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+18: cn=apple-service-location,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-service-location,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.19.5
+Attribute 2) ldapDisplayName:apple-service-location
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:Service location
+Attribute 5) oMSyntax:64
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+19: cn=apple-service-port,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-service-port,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.19.3
+Attribute 2) ldapDisplayName:apple-service-port
+Attribute 3) attributeSyntax:2.5.5.9
+Attribute 4) adminDescription:Service port number
+Attribute 5) oMSyntax:2
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+20: cn=apple-service-type,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-service-type,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.19.1
+Attribute 2) ldapDisplayName:apple-service-type
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:type of service
+Attribute 5) oMSyntax:22
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+21: cn=apple-service-url,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-service-url,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.19.2
+Attribute 2) ldapDisplayName:apple-service-url
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:URL of service
+Attribute 5) oMSyntax:22
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+22: cn=apple-user-authenticationhint,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-authenticationhint,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.15
+Attribute 2) ldapDisplayName:apple-user-authenticationhint
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:password hint
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+23: cn=apple-user-class,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-class,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.7
+Attribute 2) ldapDisplayName:apple-user-class
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:user class
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+24: cn=apple-user-homequota,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-homequota,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.8
+Attribute 2) ldapDisplayName:apple-user-homequota
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:home directory quota
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+25: cn=apple-user-homesoftquota,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-homesoftquota,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.17
+Attribute 2) ldapDisplayName:apple-user-homesoftquota
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:home directory soft quota
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+26: cn=apple-user-mailattribute,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-mailattribute,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.9
+Attribute 2) ldapDisplayName:apple-user-mailattribute
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:mail attribute
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+27: cn=apple-user-picture,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-picture,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.12
+Attribute 2) ldapDisplayName:apple-user-picture
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:picture
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+28: cn=apple-user-printattribute,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user-printattribute,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.13
+Attribute 2) ldapDisplayName:apple-user-printattribute
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:print attribute
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+29: cn=apple-webloguri,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-webloguri,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.1.22
+Attribute 2) ldapDisplayName:apple-webloguri
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:Weblog URI
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+30: cn=apple-xmlplist,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-xmlplist,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.17.1
+Attribute 2) ldapDisplayName:apple-xmlplist
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:XML plist data
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+31: cn=apple-mountDirectory,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mountDirectory,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.8.1
+Attribute 2) ldapDisplayName:mountDirectory
+Attribute 3) attributeSyntax:2.5.5.12
+Attribute 4) adminDescription:mount path
+Attribute 5) oMSyntax:64
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+32: cn=apple-mountDumpFrequency,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mountDumpFrequency,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.8.4
+Attribute 2) ldapDisplayName:mountDumpFrequency
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:mount dump frequency
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+33: cn=apple-mountOption,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mountOption,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.8.3
+Attribute 2) ldapDisplayName:mountOption
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:mount options
+Attribute 5) oMSyntax:22
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+34: cn=apple-mountPassNo,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mountPassNo,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.8.5
+Attribute 2) ldapDisplayName:mountPassNo
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:mount passno
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+35: cn=apple-mountType,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-mountType,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.63.1000.1.1.1.8.2
+Attribute 2) ldapDisplayName:mountType
+Attribute 3) attributeSyntax:2.5.5.5
+Attribute 4) adminDescription:mount VFS type
+Attribute 5) oMSyntax:22
+Attribute 6) isSingleValued:TRUE
+Attribute 7) systemOnly:FALSE
+
+Entry modified successfully.
+
+36: cn=ttl,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=ttl,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:attributeSchema
+Attribute 1) attributeId:1.3.6.1.4.1.250.1.60
+Attribute 2) ldapDisplayName:ttl
+Attribute 3) attributeSyntax:2.5.5.9
+Attribute 4) oMSyntax:2
+Attribute 5) isSingleValued:TRUE
+Attribute 6) systemOnly:FALSE
+
+Entry modified successfully.
+
+37: (null)
+Entry DN: (null)
+changetype: modify
+Attribute 0) schemaUpdateNow:1
+
+Entry modified successfully.
+
+38: cn=apple-computer,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-computer,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.10
+Attribute 2) ldapDisplayName:apple-computer
+Attribute 3) adminDescription:computer
+Attribute 4) objectClassCategory:3
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.10.4 1.3.6.1.4.1.63.1000.1.1.1.11.4 1.3.6.1.4.1.63.1000.1.1.1.1.10 1.3.6.1.4.1.63.1000.1.1.1.1.16 1.3.6.1.4.1.63.1000.1.1.1.10.3 1.3.6.1.4.1.63.1000.1.1.1.19.2 1.3.6.1.4.1.63.1000.1.1.1.17.1 1.3.6.1.1.1.1.22 1.3.6.1.4.1.250.1.60
+
+Entry modified successfully.
+
+39: cn=apple-computer-list,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-computer-list,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.11
+Attribute 2) ldapDisplayName:apple-computer-list
+Attribute 3) adminDescription:computer list
+Attribute 4) objectClassCategory:0
+Attribute 5) possSuperiors:organizationalUnit container
+Attribute 6) systemOnly:FALSE
+Attribute 7) subclassOf:2.5.6.0
+Attribute 8) rdnAttId:2.5.4.3
+Attribute 9) mayContain:1.3.6.1.4.1.63.1000.1.1.1.11.4 1.3.6.1.4.1.63.1000.1.1.1.11.3 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.1.10 1.3.6.1.4.1.63.1000.1.1.1.1.16
+
+Entry modified successfully.
+
+40: cn=apple-configuration,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-configuration,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.12
+Attribute 2) ldapDisplayName:apple-configuration
+Attribute 3) adminDescription:configuration
+Attribute 4) objectClassCategory:0
+Attribute 5) possSuperiors:organizationalUnit container
+Attribute 6) systemOnly:FALSE
+Attribute 7) subclassOf:2.5.6.0
+Attribute 8) rdnAttId:2.5.4.3
+Attribute 9) mayContain:1.3.6.1.4.1.63.1000.1.1.1.12.2 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.17.1 1.3.6.1.4.1.250.1.60
+
+Entry modified successfully.
+
+41: cn=apple-group,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-group,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.14
+Attribute 2) ldapDisplayName:apple-group
+Attribute 3) adminDescription:group account
+Attribute 4) objectClassCategory:3
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.14.2 1.3.6.1.4.1.63.1000.1.1.1.14.1 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.1.10 1.3.6.1.4.1.63.1000.1.1.1.1.16 1.3.6.1.4.1.63.1000.1.1.1.1.12 1.3.6.1.4.1.250.1.60
+
+Entry modified successfully.
+
+42: cn=apple-location,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-location,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.18
+Attribute 2) ldapDisplayName:apple-location
+Attribute 3) objectClassCategory:0
+Attribute 4) possSuperiors:organizationalUnit container
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.18.1 1.3.6.1.4.1.63.1000.1.1.1.18.2
+
+Entry modified successfully.
+
+43: cn=apple-neighborhood,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-neighborhood,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.20
+Attribute 2) ldapDisplayName:apple-neighborhood
+Attribute 3) objectClassCategory:0
+Attribute 4) possSuperiors:organizationalUnit container
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.10.4 1.3.6.1.4.1.63.1000.1.1.1.20.3 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.20.2 1.3.6.1.4.1.63.1000.1.1.1.20.1 1.3.6.1.4.1.63.1000.1.1.1.17.1 1.3.6.1.4.1.250.1.60
+
+Entry modified successfully.
+
+44: cn=apple-serverassistant-config,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-serverassistant-config,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.17
+Attribute 2) ldapDisplayName:apple-serverassistant-config
+Attribute 3) objectClassCategory:0
+Attribute 4) possSuperiors:organizationalUnit container
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.17.1
+
+Entry modified successfully.
+
+45: cn=apple-service,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-service,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.19
+Attribute 2) ldapDisplayName:apple-service
+Attribute 3) objectClassCategory:0
+Attribute 4) possSuperiors:organizationalUnit container
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mustContain:1.3.6.1.4.1.63.1000.1.1.1.19.1
+Attribute 9) mayContain:1.3.6.1.4.1.63.1000.1.1.1.19.4 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.19.5 1.3.6.1.4.1.63.1000.1.1.1.19.3 1.3.6.1.4.1.63.1000.1.1.1.19.2 1.3.6.1.1.1.1.19
+
+Entry modified successfully.
+
+46: cn=apple-user,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=apple-user,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.1
+Attribute 2) ldapDisplayName:apple-user
+Attribute 3) adminDescription:apple user account
+Attribute 4) objectClassCategory:3
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.1.21 1.3.6.1.4.1.63.1000.1.1.1.1.19 1.3.6.1.4.1.63.1000.1.1.1.1.10 1.3.6.1.4.1.63.1000.1.1.1.1.16 1.3.6.1.4.1.63.1000.1.1.1.1.15 1.3.6.1.4.1.63.1000.1.1.1.1.7 1.3.6.1.4.1.63.1000.1.1.1.1.8 1.3.6.1.4.1.63.1000.1.1.1.1.17 1.3.6.1.4.1.63.1000.1.1.1.1.9 1.3.6.1.4.1.63.1000.1.1.1.1.12 1.3.6.1.4.1.63.1000.1.1.1.1.13 1.3.6.1.4.1.63.1000.1.1.1.1.22
+
+Entry modified successfully.
+
+47: cn=mount,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: cn=mount,cn=Schema,cn=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: add
+Attribute 0) objectClass:classSchema
+Attribute 1) governsID:1.3.6.1.4.1.63.1000.1.1.2.8
+Attribute 2) ldapDisplayName:mount
+Attribute 3) objectClassCategory:0
+Attribute 4) possSuperiors:organizationalUnit container
+Attribute 5) systemOnly:FALSE
+Attribute 6) subclassOf:2.5.6.0
+Attribute 7) rdnAttId:2.5.4.3
+Attribute 8) mayContain:1.3.6.1.4.1.63.1000.1.1.1.8.1 1.3.6.1.4.1.63.1000.1.1.1.8.4 1.3.6.1.4.1.63.1000.1.1.1.8.3 1.3.6.1.4.1.63.1000.1.1.1.8.5 1.3.6.1.4.1.63.1000.1.1.1.8.2
+
+Entry modified successfully.
+
+48: (null)
+Entry DN: (null)
+changetype: modify
+Attribute 0) schemaUpdateNow:1
+
+Entry modified successfully.
+
+49: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: modify
+Attribute 0) auxiliaryClass:apple-user
+
+Entry modified successfully.
+
+50: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: modify
+Attribute 0) auxiliaryClass:apple-computer
+
+Entry modified successfully.
+
+51: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+Entry DN: CN=User,CN=Schema,CN=Configuration,DC=BUCSDEN,DC=RADIOTOPE,DC=COM
+changetype: modify
+Attribute 0) auxiliaryClass:apple-group
+
+Entry modified successfully.
+
+51 entries modified successfully.
+
+The command has completed successfully
